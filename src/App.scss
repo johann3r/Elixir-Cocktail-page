@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "Dream";
+	src: url(./../fonts/Dream-Avenue.ttf);
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(./../fonts/Poppins-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+}
+
+:root {
+	--background: 29, 29, 29;
+	--headline: 255, 126, 79;
+	--text-color: 255, 235, 205;
+	--brightness: 80%;
+	--bg: url(./bgDark.jpg);
+	--section: rgb(21, 21, 21);
+}
+
+.lightMode {
+	--background: 255, 235, 205;
+	--text-color: 29, 29, 29;
+	--headline: 255, 127, 80;
+	--brightness: 90%;
+	--bg: url(./bgLight.jpg);
+	--section: rgb(251, 228, 193);
+}
+
+.customOverlay {
+	background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+	background: #b2dbbf;
+	max-width: 500px;
+	width: 100%;
+}

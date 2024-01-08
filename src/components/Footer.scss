@@ -1,0 +1,36 @@
+.footer {
+	padding: 5% 0 0 0;
+	background-color: rgba(var(--background), 0.9);
+	border-top: 1px solid rgb(var(--headline));
+	h3 {
+		font-family: "Playfair Display";
+		font-size: 1.75rem;
+		color: rgb(var(--headline));
+		font-family: Dream;
+		font-weight: normal;
+		text-align: center;
+		margin-top: 3%;
+	}
+	p {
+		font-family: "Montserrat";
+		margin-top: 3rem;
+		color: rgb(var(--text-color));
+		font-family: Poppins;
+		max-width: 70%;
+		margin: 3rem auto;
+	}
+	h6 {
+		text-align: center;
+		color: rgb(var(--headline));
+		padding: 0.5%;
+		margin-top: 7%;
+		font-size: 1rem;
+		background-color: var(--section);
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.footer {
+		text-align: center;
+	}
+}
